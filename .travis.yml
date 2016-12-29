@@ -6,5 +6,6 @@ rvm:
 gemfile:
   - Gemfile_1_8_0
   - Gemfile_2_0_0
+cache: bundler
 script:
   - bundle exec rspec

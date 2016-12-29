@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+gemspec path: '../'
+
+gem 'rest-client', '1.8.0'

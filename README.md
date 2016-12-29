@@ -45,6 +45,12 @@ RestClient.get('https://www.google.com')
 When EventMachine is already running we assume that you are responsible for Fiber allocation.
 You can add `Rack::FiberPool` to your application middleware and it automatically provides a Fiber for each incoming HTTP request. It creates pool of Fibers and re-use fiber for each incoming HTTP request. Also you can control the connection pool size.
 
+
+## Testing
+
+* `BUNDLE_GEMFILE=gemfiles/1_8_0 bundle exec rspec`
+* `BUNDLE_GEMFILE=gemfiles/2_0_0 bundle exec rspec`
+
 ## Authors
 
 * [Andriy Yanko](http://ayanko.github.io)

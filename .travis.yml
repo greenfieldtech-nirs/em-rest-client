@@ -4,8 +4,8 @@ rvm:
   - 2.3.3
   - 2.4.0
 gemfile:
-  - Gemfile_1_8_0
-  - Gemfile_2_0_0
+  - gemfiles/1_8_0
+  - gemfiles/2_0_0
 cache: bundler
 script:
   - bundle exec rspec
